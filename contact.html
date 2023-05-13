@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best university</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./assets/school logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31668.219921165215!2d3.2649703861041455!3d7.180486297468628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4e6dc9662fcd%3A0x91837457b9fc311!2s111105%2C%20Sabo%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1678872565202!5m2!1sen!2sng"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <dv class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+              <h5>123 Road, Building 25</h5>
+              <p>Califonia,Los Angeles</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <h5>+ 19330122348</h5>
+              <p>Monday to Friday, 8AM to 5Pm</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+              <h5>info@biguniversity.com</h5>
+              <p>Send us Email</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="form.php" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              reqiured
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+              reqiured
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter your prefered course"
+              reqiured
+            />
+            <textarea rows="8" name="message" placeholder="Message"></textarea>
+            <button type="submit" class="hero-btn btn">Send Message</button>
+          </form>
+        </div>
+      </dv>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Are you looking to upgrade your education with a stimulating learning
+        experience? Our university offers students the opportunity to gain
+        knowledge and skills that will last them a lifetime. We pride ourselves
+        on our commitment to providing an excellent educational environment,
+        leading-edge research opportunities and unmatched student support
+        services. With small faculty-to-student ratios, professors who are
+        dedicated experts in their fields, and countless extracurricular
+        activities available both inside and outside of the classroom – there’s
+        something for everyone here at our university! Designed to meet the
+        needs of today's changing world,our robust curriculum includes courses
+        in business administration, technology innovation management information
+        systems engineering & science – all with real world application
+        potential through internship experiences or study abroad programs. Here
+        at Best University, we strive for excellence so you can achieve your
+        dreams. Come join us this fall – it’ll be worth every minute!
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script lang="javaScript" type="text/javaScript" src="app.js"></script>
+  </body>
+</html>

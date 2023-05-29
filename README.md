@@ -1,3 +1,3 @@
 # collegewebsite
 
-click to view   collegewebsite-rho.vercel.app
+click to view   [collegewebsite-rho.vercel.app](https://collegewebsite-rho.vercel.app/)
